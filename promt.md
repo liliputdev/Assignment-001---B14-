@@ -1,0 +1,1 @@
+make me proffesional webiste section for my devcon 2026 website, it will show some inportant things that is relevant to the webiste, use UI/Ux formula awesome purple color things and button 
