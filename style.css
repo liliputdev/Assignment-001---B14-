@@ -260,12 +260,190 @@ body{
     text-decoration: none; }
 
 
+/*ai challenge copy from chatgpt no hand added*/
+.devsphere-section {
+    width: 100%;
+    padding: 100px 20px;
+    background:
+    radial-gradient(circle at top left, #5b21ff33, transparent 35%),
+    radial-gradient(circle at bottom right, #2563eb33, transparent 35%),
+    #070712;
+}
+
+
+.devsphere-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Header */
+
+.devsphere-header {
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+}
+
+
+.section-tag {
+    display: inline-block;
+    color: #a78bfa;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.devsphere-header h2 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.devsphere-header p {
+    color: #b8b8c7;
+    font-size: 18px;
+    line-height: 1.7;
+}
 
 
 
+/* Cards */
+
+.devsphere-grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+
+.devsphere-card {
+
+    padding: 30px;
+    border-radius: 20px;
+
+    background:
+    rgba(255,255,255,0.06);
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(15px);
+
+    transition: .3s ease;
+
+}
+
+
+.devsphere-card:hover {
+
+    transform: translateY(-10px);
+
+    border-color:#8b5cf6;
+
+    box-shadow:
+    0 20px 50px rgba(139,92,246,.25);
+
+}
 
 
 
+.icon {
+
+    font-size:40px;
+    margin-bottom:20px;
+
+}
+
+
+.devsphere-card h3 {
+
+    color:white;
+    font-size:22px;
+    margin-bottom:15px;
+
+}
+
+
+.devsphere-card p {
+
+    color:#b5b5c5;
+    line-height:1.6;
+    font-size:15px;
+
+}
+
+
+
+/* Button */
+
+.devsphere-action {
+
+    text-align:center;
+    margin-top:60px;
+
+}
+
+
+.devsphere-action button {
+
+    padding:16px 35px;
+
+    border:none;
+    border-radius:50px;
+
+    background:
+    linear-gradient(135deg,#8b5cf6,#2563eb);
+
+    color:white;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.devsphere-action button:hover {
+
+    transform:scale(1.05);
+
+    box-shadow:
+    0 10px 30px rgba(139,92,246,.5);
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:1000px){
+
+    .devsphere-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .devsphere-header h2{
+        font-size:36px;
+    }
+
+
+    .devsphere-grid{
+        grid-template-columns:1fr;
+    }
+
+}
 
 
 
