@@ -5,6 +5,35 @@
     font-family: "Inter", sans-serif;
 }
 
+/*button*/
+.register-btn {
+    background-color: #2957f0; /* Change to your desired button color */
+    color: white;
+    border: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header{
+    background-color: #f8f7ff; /* Change to your desired background color */
+    padding: 10px;
+    width: 100%;
+    height: 20%;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f7ff; /* Change to your desired background color */
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
 nav ul{
     display: flex;
     list-style: none;
@@ -19,11 +48,11 @@ nav ul li :hover{
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .logo img {
-    height: 50px;
+    height: 30px;
     width: auto;
 }
 
