@@ -7,19 +7,34 @@
 
 /*button*/
 .register-btn {
-    background-color: #2957f0; /* Change to your desired button color */
+    display: inline-block;
+    background: #2957f0;
     color: white;
-    border: 15px;
-    padding: 5px 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
     cursor: pointer;
-    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+
+.register-btn:hover {
+    background-color: #1d47d9;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(32, 84, 255, 0.3);
+}
+
+.register-btn:active {
+    transform: translateY(0);
 }
 
 header{
     background-color: #f8f7ff; /* Change to your desired background color */
     padding: 10px;
     width: 100%;
-    height: 20%;
+    height: 10%;
     padding-bottom: 10px;
 }
 
@@ -27,7 +42,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f8f7ff; /* Change to your desired background color */
     max-width: 1200px;
     margin: 0 auto;
@@ -37,13 +52,39 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    transition: color 0.3s;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px; /* Adjust spacing between links */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Perfectly centers the list */
+}
+.nav-links a:hover {
+    color: #6c3df4;
+}
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: black;          /* Change blue to black (or any color) */
 }
 nav ul li{
     margin-right: 20px;
     padding: 10px;
 }
 nav ul li :hover{
-    color: #a37a7a; /* Change to your desired hover color */
+    color: #95a0ff; /* Change to your desired hover color */
 }
 .logo {
     display: flex;
@@ -64,4 +105,50 @@ nav ul li :hover{
 
 body{
     background-color: #ffffff;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f7ff; /* Change to your desired background color */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 100px;
+}
+
+.register-btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
