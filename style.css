@@ -193,13 +193,32 @@ body{
     margin: 0;
   }
 
+.title-speaker{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
 
 
 /* Pricing: Pro card updated to Deep Navy Blue */
 
+.secure-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.secure-text {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
 .pricing { 
     padding: 50px 5%; 
-    text-align: center; 
+    text-align: left; 
     background: #f9f9f9; }
 
 .pricing-container { 
