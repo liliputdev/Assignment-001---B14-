@@ -20,6 +20,26 @@
     height: auto;
 }
 
+.outline-register-btn {
+    display: inline-block;
+    background: transparent;
+    color: #2957f0;
+    border: 2px solid #2957f0;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+}
+
+.outline-register-btn:hover {
+    background-color: #1d47d9;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(32, 84, 255, 0.3);
+}
+
 .register-btn:hover {
     background-color: #1d47d9;
     transform: translateY(-2px);
